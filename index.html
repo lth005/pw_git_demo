@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Uso de Tablas</title>
+    <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>Uso de tablas en HTML</h1>
+        <h2>Tabla Basica</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Tittle 1</th>
+                    <th>Tittke 2</th>
+                    <th>Tittke 3</th>
+                    <th>Tittke 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>String 1</td>
+                        <td>Float 1.1</td>
+                        <td>Dloat 1.2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>String 2</td>
+                        <td>Float 2.1</td>
+                        <td>Dloat 2.2</td>
+                    </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>lines: 2</td>
+                    <td>&nbsp;</td> 
+                    <td>sum(Float*.1)</td>
+                    <td>Sum(Float*.2)</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Tabla Optimizada para UX</h2>
+        <table border=1"">
+            <thead>
+                <tr>
+                    <th>Zona</th>
+                    <th>Tienda</th>
+                    <th>Q1</th>
+                    <th>Q2</th>
+                    <th>Q3</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">CNT</td>
+                    <th>Multi-Plaza</th>
+                    <th>10</th>
+                    <th>5</th>
+                    <th>3</th>
+                    <th>18</th>
+                </tr>
+                <tr>
+                    
+                    <th>Parque Central</th>
+                    <th>15</th>
+                    <th>52</th>
+                    <th>3</th>
+                    <th>20</th>
+                </tr>
+                <tr>
+                    
+                    <th>Loarque</th>
+                    <th>10</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>15</th>
+                </tr>
+                <tr>
+                    <td>NRT</td>
+                    <th>Circunvalacion</th>
+                    <th>20</th>
+                    <th>15</th>
+                    <th>10</th>
+                    <th>45</th>
+                </tr>
+                <tr>
+                    <td>SUR</td>
+                    <th>San Marcos de Colon</th>
+                    <th colspan="3">10</th>
+                    
+                    <th>30</th>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
